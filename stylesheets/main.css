@@ -1,0 +1,538 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/abstracts\/_sass-utilities\.scss}line{font-family:\000031}}
+.bg--dark {
+  background-color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/abstracts\/_sass-utilities\.scss}line{font-family:\000034}}
+.text--white {
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/abstracts\/_sass-utilities\.scss}line{font-family:\000037}}
+.text--dark {
+  color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/abstracts\/_sass-utilities\.scss}line{font-family:\0000311}}
+.flex {
+  display: flex; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/abstracts\/_sass-utilities\.scss}line{font-family:\0000314}}
+.align--center {
+  align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/abstracts\/_sass-utilities\.scss}line{font-family:\0000318}}
+.justify--between {
+  justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/abstracts\/_sass-utilities\.scss}line{font-family:\0000322}}
+.direction--column {
+  flex-direction: column; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/abstracts\/_sass-utilities\.scss}line{font-family:\0000325}}
+.gap-1 {
+  gap: 1.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/abstracts\/_sass-utilities\.scss}line{font-family:\0000329}}
+.decoration--none {
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/abstracts\/_sass-utilities\.scss}line{font-family:\0000333}}
+.bg--light {
+  background-color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/abstracts\/_sass-utilities\.scss}line{font-family:\0000337}}
+.translate {
+  transform: translateY(-100%); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_reset\.scss}line{font-family:\000031}}
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_reset\.scss}line{font-family:\000037}}
+body {
+  width: 100%;
+  display: grid;
+  place-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\000032}}
+.hero__section__heading {
+  font-size: 3.8rem;
+  font-family: arial;
+  line-height: 4rem; }
+  @media (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\000032}}
+    .hero__section__heading {
+      font-size: 2.5rem;
+      line-height: 2.5rem; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\0000312}}
+.hero__section__para {
+  font-family: sans-serif;
+  line-height: 1.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\0000318}}
+.hero__section__features li {
+  font-family: sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\0000323}}
+.hero__section__btn {
+  font-family: sans-serif;
+  font-size: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\0000329}}
+.partners h5 {
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding-bottom: 0.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\0000337}}
+.nav__search {
+  font-family: sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\0000342}}
+.welcome__section .welcome__messg {
+  font-family: arial;
+  padding-bottom: 0.5rem;
+  font-size: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\0000347}}
+.welcome__section .sub__text,
+.welcome__section .link {
+  font-family: sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\0000355}}
+.camp-section .card .camp__location {
+  font-family: arial; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\0000358}}
+.camp-section .card .camp__info {
+  font-family: sans-serif;
+  color: #757070;
+  line-height: 1.5rem;
+  padding: 0.4rem 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\0000364}}
+.camp-section .card .view__btn {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 1.1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\0000372}}
+.toggle__menu {
+  font-family: sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\0000377}}
+.login__section__heading {
+  font-family: arial;
+  line-height: 2rem; }
+  @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\0000377}}
+    .login__section__heading {
+      font-size: 2.5rem;
+      line-height: 2.8rem; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\0000386}}
+.user__login {
+  font-family: sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\0000390}}
+  .user__login .user__name input,
+  .user__login .user__password input {
+    font-size: 0.9rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\0000397}}
+.testimonial h3 {
+  font-family: arial;
+  font-weight: bold;
+  line-height: 2rem;
+  font-size: 1.3rem;
+  padding-right: 2.5rem;
+  margin-bottom: 1.5rem; }
+  @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\0000397}}
+    .testimonial h3 {
+      font-size: 1.8rem;
+      line-height: 3rem; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\00003111}}
+.user {
+  line-height: 1.3rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\00003113}}
+  .user .user__name {
+    font-family: arial;
+    font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\00003117}}
+  .user .user__profession {
+    font-family: sans-serif;
+    color: #757070;
+    font-size: 0.8rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/base\/_typography\.scss}line{font-family:\00003124}}
+.prev-page {
+  font-family: sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_home\.scss}line{font-family:\000031}}
+.home__page {
+  width: 100vw;
+  overflow: hidden;
+  background-color: #f6f1f1; }
+  @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_home\.scss}line{font-family:\000031}}
+    .home__page {
+      flex-direction: column-reverse; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_home\.scss}line{font-family:\000038}}
+  .home__page .hero__image {
+    width: calc(100% - 55%);
+    height: 100vh; }
+    @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_home\.scss}line{font-family:\000038}}
+      .home__page .hero__image {
+        width: 100%;
+        height: 50%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_home\.scss}line{font-family:\0000315}}
+    .home__page .hero__image img {
+      width: 100%;
+      height: 100%; }
+      @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_home\.scss}line{font-family:\0000315}}
+        .home__page .hero__image img {
+          width: 100%;
+          height: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_home\.scss}line{font-family:\0000324}}
+    .home__page .hero__image .image-2 {
+      display: none; }
+      @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_home\.scss}line{font-family:\0000324}}
+        .home__page .hero__image .image-2 {
+          display: block; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_home\.scss}line{font-family:\0000331}}
+  .home__page .image-1 {
+    display: block; }
+    @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_home\.scss}line{font-family:\0000331}}
+      .home__page .image-1 {
+        display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_home\.scss}line{font-family:\0000338}}
+  .home__page .hero__section {
+    width: 55%; }
+    @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_home\.scss}line{font-family:\0000338}}
+      .home__page .hero__section {
+        width: 100%;
+        height: 50%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_home\.scss}line{font-family:\0000346}}
+  .home__page .hero__section__text {
+    height: 70%;
+    width: 75%;
+    margin-top: 2rem;
+    padding: 0 1rem; }
+    @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_home\.scss}line{font-family:\0000346}}
+      .home__page .hero__section__text {
+        width: 100%;
+        height: 100%;
+        padding: 1rem 2rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_home\.scss}line{font-family:\0000357}}
+  .home__page .hero__section__heading {
+    padding-bottom: 1.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_home\.scss}line{font-family:\0000361}}
+  .home__page .hero__section__para {
+    padding-bottom: 1rem;
+    color: #757070; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_home\.scss}line{font-family:\0000367}}
+  .home__page .hero__section__features li {
+    list-style-type: none;
+    gap: 0.5rem;
+    padding: 0.3rem 0;
+    color: #757070; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_home\.scss}line{font-family:\0000375}}
+  .home__page .partners {
+    margin-top: 2rem;
+    color: #757070; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/components\/_buttons\.scss}line{font-family:\000031}}
+.hero__section__btn,
+.create__account__btn,
+.search__btn,
+.view__btn,
+.login__btn {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/components\/_buttons\.scss}line{font-family:\0000313}}
+.hero__section__btn {
+  width: 190px;
+  height: 50px;
+  margin-top: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/components\/_buttons\.scss}line{font-family:\0000319}}
+.create__account__btn {
+  width: 150px;
+  height: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/components\/_buttons\.scss}line{font-family:\0000324}}
+.search__btn {
+  width: 20%; }
+  @media (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/components\/_buttons\.scss}line{font-family:\0000324}}
+    .search__btn {
+      width: 100%;
+      height: 40px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/components\/_buttons\.scss}line{font-family:\0000332}}
+.view__btn {
+  width: 100%;
+  padding: 0.5rem 0;
+  border: 2px solid rgba(184, 184, 184, 0.88);
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/components\/_buttons\.scss}line{font-family:\0000339}}
+.login__btn {
+  width: 100%;
+  padding: 0.6rem 0;
+  margin: 1rem 0 0 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_navigation\.scss}line{font-family:\000032}}
+.nav {
+  width: 80%;
+  padding: 1.5rem 3rem 2rem 2rem;
+  margin: 1rem auto; }
+  @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_navigation\.scss}line{font-family:\000032}}
+    .nav {
+      display: none; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_navigation\.scss}line{font-family:\0000310}}
+.tablet {
+  display: none; }
+  @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_navigation\.scss}line{font-family:\0000310}}
+    .tablet {
+      display: block;
+      width: 100%;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      padding-left: 2rem; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_navigation\.scss}line{font-family:\0000323}}
+.nav__search {
+  width: 100%;
+  height: 80px;
+  padding: 0 0 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_navigation\.scss}line{font-family:\0000328}}
+  .nav__search .nav__menu a {
+    color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_navigation\.scss}line{font-family:\0000334}}
+.nav__menu .humburger-menu {
+  display: none; }
+  @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_navigation\.scss}line{font-family:\0000334}}
+    .nav__menu .humburger-menu {
+      display: block; } }
+@media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_navigation\.scss}line{font-family:\0000340}}
+  .nav__menu .display {
+    display: none; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_navigation\.scss}line{font-family:\0000347}}
+.toggle__menu {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #fff;
+  transition: all 0.2s linear; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_navigation\.scss}line{font-family:\0000354}}
+  .toggle__menu .close__icon {
+    float: right;
+    font-size: 1.3rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_navigation\.scss}line{font-family:\0000358}}
+  .toggle__menu .toggle__menu__list {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_navigation\.scss}line{font-family:\0000363}}
+    .toggle__menu .toggle__menu__list li {
+      list-style-type: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_navigation\.scss}line{font-family:\0000365}}
+      .toggle__menu .toggle__menu__list li a {
+        text-decoration: none;
+        color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_navigation\.scss}line{font-family:\0000374}}
+.prev-page {
+  text-decoration: none;
+  color: #757070; }
+  @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_navigation\.scss}line{font-family:\0000374}}
+    .prev-page {
+      padding-right: 2rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_navigation\.scss}line{font-family:\0000380}}
+  .prev-page .left-arrow {
+    padding-right: 0.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_search\.scss}line{font-family:\000031}}
+.search-page {
+  width: 90%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_search\.scss}line{font-family:\000033}}
+  .search-page .welcome__section {
+    background-color: #ffe6ea;
+    padding: 2rem 1.5rem;
+    border-radius: 3px;
+    margin-top: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_search\.scss}line{font-family:\000038}}
+    .search-page .welcome__section .sub__text,
+    .search-page .welcome__section .search__field {
+      width: 350px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_search\.scss}line{font-family:\0000312}}
+    .search-page .welcome__section .sub__text {
+      padding-bottom: 0.8rem;
+      color: #757070; }
+      @media (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_search\.scss}line{font-family:\0000312}}
+        .search-page .welcome__section .sub__text {
+          width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_search\.scss}line{font-family:\0000319}}
+    .search-page .welcome__section .search__field {
+      gap: 0.5rem;
+      margin-bottom: 0.5rem; }
+      @media (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_search\.scss}line{font-family:\0000319}}
+        .search-page .welcome__section .search__field {
+          width: 100%;
+          flex-direction: column; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_search\.scss}line{font-family:\0000327}}
+    .search-page .welcome__section .search__text {
+      width: 80%;
+      height: 40px;
+      padding-left: 0.5rem;
+      outline: none;
+      border: 1px solid #757070;
+      border-radius: 3px; }
+      @media (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_search\.scss}line{font-family:\0000327}}
+        .search-page .welcome__section .search__text {
+          width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_search\.scss}line{font-family:\0000339}}
+  .search-page .link {
+    color: #757070; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_search\.scss}line{font-family:\0000342}}
+  .search-page .camp-section {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_search\.scss}line{font-family:\0000348}}
+    .search-page .camp-section .card {
+      width: 31%;
+      border: 2px solid rgba(184, 184, 184, 0.88);
+      border-radius: 5px;
+      padding: 1rem; }
+      @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_search\.scss}line{font-family:\0000348}}
+        .search-page .camp-section .card {
+          width: 45%; } }
+      @media (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_search\.scss}line{font-family:\0000348}}
+        .search-page .camp-section .card {
+          width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_search\.scss}line{font-family:\0000359}}
+      .search-page .camp-section .card img {
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 0.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_search\.scss}line{font-family:\0000366}}
+  .search-page .footer__logo {
+    margin: 2rem 0 2rem 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_login\.scss}line{font-family:\000031}}
+.login__page {
+  width: 100vw;
+  overflow: hidden; }
+  @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_login\.scss}line{font-family:\000031}}
+    .login__page {
+      flex-direction: column; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_login\.scss}line{font-family:\000037}}
+  .login__page .testimonial__section {
+    width: calc(100% - 55%);
+    height: 100vh;
+    background-color: #f6f1f1;
+    display: grid;
+    place-items: center; }
+    @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_login\.scss}line{font-family:\000037}}
+      .login__page .testimonial__section {
+        width: 100%;
+        height: 50%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_login\.scss}line{font-family:\0000318}}
+    .login__page .testimonial__section .testimonial {
+      width: 50%;
+      padding: 0 1rem; }
+      @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_login\.scss}line{font-family:\0000318}}
+        .login__page .testimonial__section .testimonial {
+          width: 100%;
+          padding: 3rem 1rem 3rem 2.5rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_login\.scss}line{font-family:\0000325}}
+      .login__page .testimonial__section .testimonial .user {
+        gap: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_login\.scss}line{font-family:\0000330}}
+  .login__page .login__section {
+    width: 55%; }
+    @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_login\.scss}line{font-family:\0000330}}
+      .login__page .login__section {
+        width: 100%;
+        height: 50%;
+        padding-bottom: 2rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_login\.scss}line{font-family:\0000337}}
+    .login__page .login__section .login__section__text {
+      width: 75%;
+      height: 70%;
+      margin-top: 2rem;
+      padding: 0 6rem 0 1rem;
+      background-color: #fff; }
+      @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/pages\/_login\.scss}line{font-family:\0000337}}
+        .login__page .login__section .login__section__text {
+          width: 100%;
+          height: 70%;
+          margin-top: 2rem;
+          padding: 0 3rem; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_form\.scss}line{font-family:\000031}}
+.user__login {
+  width: 100%;
+  margin-top: 1rem;
+  line-height: 2.5rem; }
+  @media (max-width: 997px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_form\.scss}line{font-family:\000031}}
+    .user__login {
+      width: 80%; } }
+  @media (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_form\.scss}line{font-family:\000031}}
+    .user__login {
+      width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_form\.scss}line{font-family:\0000311}}
+  .user__login .user__name,
+  .user__login .user__password {
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_form\.scss}line{font-family:\0000314}}
+    .user__login .user__name input,
+    .user__login .user__password input {
+      display: block;
+      width: 100%;
+      border: none;
+      outline: none;
+      background-color: #f6f1f1;
+      padding: 0.8rem 0.8rem;
+      border-bottom: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/yelp-camp-sass\/sass\/layout\/_form\.scss}line{font-family:\0000325}}
+  .user__login .query a {
+    padding-left: 0.3rem;
+    color: rgba(8, 88, 192, 0.794);
+    font-weight: bold; }

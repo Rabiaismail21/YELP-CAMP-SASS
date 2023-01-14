@@ -1,0 +1,39 @@
+.bg--dark {
+  background-color: clr(black);
+}
+.text--white {
+  color: clr(white);
+}
+.text--dark {
+  color: clr(black);
+}
+
+.flex {
+  display: flex;
+}
+.align--center {
+  align-items: center;
+}
+
+.justify--between {
+  justify-content: space-between;
+}
+
+.direction--column {
+  flex-direction: column;
+}
+.gap-1 {
+  gap: 1.5rem;
+}
+
+.decoration--none {
+  text-decoration: none;
+}
+
+.bg--light {
+  background-color: clr(white);
+}
+
+.translate {
+  transform: translateY(-100%);
+}

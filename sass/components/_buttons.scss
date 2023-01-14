@@ -1,0 +1,43 @@
+.hero__section__btn,
+.create__account__btn,
+.search__btn,
+.view__btn,
+.login__btn {
+    border: none;
+    border-radius: $radius-5;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: $font-sans-serif;
+}
+
+.hero__section__btn {
+    width: 190px;
+    height: 50px;
+    margin-top: 1rem;
+}
+
+.create__account__btn {
+    width: 150px;
+    height: 40px;
+}
+
+.search__btn {
+    width: 20%;
+    @include mobile {
+        width: $full-width;
+        height: 40px;
+    }
+}
+
+.view__btn {
+    width: $full-width;
+    padding: 0.5rem 0;
+    border: 2px solid clr(gray);
+    outline: none;
+}
+
+.login__btn {
+    width: $full-width;
+    padding: 0.6rem 0;
+    margin: 1rem 0 0 0;
+}

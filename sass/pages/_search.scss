@@ -1,0 +1,69 @@
+.search-page {
+    width: 90%;
+    .welcome__section {
+        background-color: clr(light-pink);
+        padding: 2rem 1.5rem;
+        border-radius: $radius-3;
+        margin-top: 1rem;
+        .sub__text,
+        .search__field {
+            width: 350px;
+        }
+        .sub__text {
+            padding-bottom: 0.8rem;
+            color: clr(neutral-gray);
+            @include mobile {
+                width: $full-width;
+            }
+        }
+        .search__field {
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+            @include mobile {
+                width: $full-width;
+                flex-direction: column;
+            }
+        }
+        .search__text {
+            width: 80%;
+            height: 40px;
+            padding-left: 0.5rem;
+            outline: none;
+            border: 1px solid clr(neutral-gray);
+            border-radius: $radius-3;
+            @include mobile {
+                width: $full-width;
+            }
+        }
+    }
+    .link {
+        color: clr(neutral-gray);
+    }
+    .camp-section {
+        width: $full-width;
+        flex-wrap: wrap;
+        gap: 1.8rem;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        .card {
+            width: 31%;
+            border: 2px solid clr(gray);
+            border-radius: $radius-5;
+            padding: 1rem;
+            @include tablet {
+                width: 45%;
+            }
+            @include mobile {
+                width: $full-width;
+            }
+            img {
+                width: $full-width;
+                border-radius: $radius-5;
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+    .footer__logo {
+        margin: 2rem 0 2rem 0;
+    }
+}

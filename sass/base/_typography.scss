@@ -1,0 +1,126 @@
+// home page typography
+.hero__section__heading {
+    font-size: 3.8rem;
+    font-family: $font-arial;
+    line-height: 4rem;
+    @include mobile {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+}
+
+.hero__section__para {
+    font-family: $font-sans-serif;
+    line-height: 1.5rem;
+}
+
+.hero__section__features {
+    li {
+        font-family: $font-sans-serif;
+    }
+}
+
+.hero__section__btn {
+    font-family: $font-sans-serif;
+    font-size: 1rem;
+}
+
+.partners {
+    h5 {
+        font-family: $font-sans-serif;
+        font-size: 1rem;
+        padding-bottom: 0.5rem;
+    }
+}
+
+// search page typography
+.nav__search {
+    font-family: $font-sans-serif;
+}
+
+.welcome__section {
+    .welcome__messg {
+        font-family: $font-arial;
+        padding-bottom: 0.5rem;
+        font-size: 2rem;
+    }
+    .sub__text,
+    .link {
+        font-family: $font-sans-serif;
+    }
+}
+
+.camp-section {
+    .card {
+        .camp__location {
+            font-family: $font-arial;
+        }
+        .camp__info {
+            font-family: $font-sans-serif;
+            color: clr(neutral-gray);
+            line-height: 1.5rem;
+            padding: 0.4rem 0;
+        }
+        .view__btn {
+            font-family: $font-arial;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+    }
+}
+
+.toggle__menu {
+    font-family: $font-sans-serif;
+}
+
+// login page typography
+.login__section__heading {
+    font-family: $font-arial;
+    line-height: 2rem;
+    @include tablet {
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+    }
+}
+
+.user__login {
+    font-family: $font-sans-serif;
+    .user__name,
+    .user__password {
+        input {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+.testimonial {
+    h3 {
+        font-family: $font-arial;
+        font-weight: bold;
+        line-height: 2rem;
+        font-size: 1.3rem;
+        padding-right: 2.5rem;
+        margin-bottom: 1.5rem;
+        @include tablet {
+            font-size: 1.8rem;
+            line-height: 3rem;
+        }
+    }
+}
+
+.user {
+    line-height: 1.3rem;
+    .user__name {
+        font-family: $font-arial;
+        font-weight: bold;
+    }
+    .user__profession {
+        font-family: $font-sans-serif;
+        color: clr(neutral-gray);
+        font-size: 0.8rem;
+    }
+}
+
+.prev-page {
+    font-family: $font-sans-serif;
+}

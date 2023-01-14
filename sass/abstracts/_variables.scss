@@ -1,0 +1,28 @@
+$colors: (
+    black: #000,
+    light-gray: #f6f1f1,
+    white: #fff,
+    light-pink: #ffe6ea,
+    neutral-gray: rgb(117, 112, 112),
+    gray: rgba(184, 184, 184, 0.88),
+    link-blue: rgba(8, 88, 192, 0.794),
+);
+
+ 
+$font-arial: arial;
+$font-sans-serif: sans-serif;
+
+// border
+$radius-5: 5px;
+$radius-10: 10px;
+$radius-3: 3px;
+
+// width 
+$full-width: 100%;
+
+// media queries 
+// for tablet mode
+$tablet-end: 997px;
+
+// for mobile mode
+$mobile-size: 550px;

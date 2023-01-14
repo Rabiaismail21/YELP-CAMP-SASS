@@ -1,0 +1,31 @@
+.user__login {
+    width: $full-width;
+    margin-top: 1rem;
+    line-height: 2.5rem;
+    @include tablet {
+        width: 80%;
+    }
+    @include mobile {
+        width: $full-width;
+    }
+    .user__name,
+    .user__password {
+        display: block;
+        input {
+            display: block;
+            width: $full-width;
+            border: none;
+            outline: none;
+            background-color: clr(light-gray);
+            padding: 0.8rem 0.8rem;
+            border-bottom: $radius-3;
+        }
+    }
+    .query {
+        a {
+            padding-left: 0.3rem;
+            color: clr(link-blue);
+            font-weight: bold;
+        }
+    }
+}

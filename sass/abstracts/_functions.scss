@@ -1,0 +1,4 @@
+// color function
+@function clr($name){
+    @return map-get($colors, $name);
+}

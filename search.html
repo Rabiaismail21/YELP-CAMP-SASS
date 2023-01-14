@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="sass/main.css">
+        <script src="https://kit.fontawesome.com/72225e7e07.js" crossorigin="anonymous"></script>
+        <title>Yelp Camp | Search</title>
+
+    </head>
+
+    <body>
+        <main class="search-page">
+            <!-- hero navbar -->
+            <nav class="nav__search flex justify--between align--center">
+                <div class="nav__menu flex align--center gap-1">
+                    <a href="#" class="nav-brand">
+                        <img src="./Assets/Logo.svg" alt="yelp camp logo" />
+                        <a href="index.html" class="decoration--none display">HOME</a>
+                </div>
+
+                <div class="nav__menu flex align--center gap-1">
+                    <a href="login.html" class="decoration--none display">Login</a>
+                    <a href="signup.html">
+                        <button class="create__account__btn bg--dark text--white display">Create an account</button>
+                    </a>
+                    <img src="./Assets/Hamburger Menu.svg" class="humburger-menu">
+                </div>
+            </nav>
+            <!-- welcome section -->
+            <section class="welcome__section">
+                <h1 class="welcome__messg">Welcome to YelpCamp!</h1>
+                <p class="sub__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, minima.
+                </p>
+                <div class="search__field flex">
+                    <input type="text" class="search__text" placeholder="Search for camps">
+                    <button class="search__btn bg--dark text--white">Search</button>
+                </div>
+                <a href="#" class="link">Or add your own campground</a>
+
+            </section>
+            <!-- Assets section -->
+            <section class="camp-section flex align-center">
+                <div class="card">
+                    <img src="./Assets/Mount Ulap.jpg">
+                    <h3 class="camp__location">Mount Ulap</h3>
+                    <p class="camp__info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, officiis?</p>
+                    <button class="view__btn bg--light text--dark">
+               View Campground
+            </button>
+                </div>
+                <div class="card"><img src="./Assets/Calaguas Island.jpg">
+                    <h3 class="camp__location">Calaguas Island</h3>
+                    <p class="camp__info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, officiis?</p>
+                    <button class="view__btn bg--light text--dark">
+               View Campground
+            </button>
+                </div>
+                <div class="card"><img src="./Assets/Onay Beach.jpg">
+                    <h3 class="camp__location">Onay Beach</h3>
+                    <p class="camp__info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, officiis?</p>
+                    <button class="view__btn bg--light text--dark">
+               View Campground
+            </button>
+                </div>
+                <div class="card"><img src="./Assets/Seven Sisters Waterfall.jpg">
+                    <h3 class="camp__location">Seven Sisters Waterfall</h3>
+                    <p class="camp__info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, officiis?</p>
+                    <button class="view__btn bg--light text--dark">
+               View Campground
+            </button>
+                </div>
+                <div class="card"><img src="./Assets/Latik Riverside.jpg">
+                    <h3 class="camp__location">Latik Riverside</h3>
+                    <p class="camp__info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, officiis?</p>
+                    <button class="view__btn bg--light text--dark">
+               View Campground
+            </button>
+                </div>
+                <div class="card"><img src="./Assets/Buloy Springs.jpg">
+                    <h3 class="camp__location">Buloy Springs</h3>
+                    <p class="camp__info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, officiis?</p>
+                    <button class="view__btn bg--light text--dark">
+               View Campground
+            </button>
+                </div>
+            </section>
+
+            <p class="footer__logo">
+                <img src="./Assets/Logo.svg">
+            </p>
+        </main>
+        <div class="toggle__menu translate">
+            <i class="fa-solid fa-xmark close__icon "></i>
+            <ul class="toggle__menu__list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="#">Create an account</a></li>
+            </ul>
+        </div>
+        <script>
+            const hamburgerMenu = document.querySelector('.humburger-menu');
+            const closeIcon = document.querySelector('.close__icon');
+            const toggleMenu = document.querySelector('.toggle__menu');
+
+            hamburgerMenu.addEventListener('click', () => {
+                toggleMenu.classList.remove('translate');
+            });
+
+            closeIcon.addEventListener('click', () => {
+                toggleMenu.classList.add('translate');
+            })
+        </script>
+    </body>
+
+</html>

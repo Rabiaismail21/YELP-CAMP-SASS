@@ -1,0 +1,83 @@
+// homepage navbar styling
+.nav {
+  width: 80%;
+  padding: 1.5rem 3rem 2rem 2rem;
+  margin: 1rem auto;
+  @include tablet {
+    display: none;
+  }
+}
+.tablet {
+  display: none;
+  @include tablet {
+    display: block;
+    width: $full-width;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+  }
+}
+
+// search page navbar styling
+.nav__search {
+  width: $full-width;
+    height: 80px;
+    padding: 0 0 0 0;
+  .nav__menu {
+    a {
+      color: clr(black);
+    }
+  }
+}
+.nav__menu {
+    .humburger-menu {
+        display: none;
+        @include tablet {
+            display: block;
+        }
+    }
+    .display {
+        @include tablet {
+            display: none;
+        }
+    }
+}
+// toggle menu
+.toggle__menu {
+  position: absolute;
+  top:0;
+  width: $full-width;
+  padding: 1rem;
+  background-color: clr(white);
+  transition: all 0.2s linear;
+  .close__icon {
+    float: right;
+    font-size: 1.3rem;
+  }
+  .toggle__menu__list{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    li {
+      list-style-type: none;
+      a {
+        text-decoration: none;
+        color: clr(black);
+      }
+    }
+  }
+
+}
+
+.prev-page {
+  text-decoration: none;
+  color: clr(neutral-gray);
+  @include tablet {
+    padding-right: 2rem;
+  }
+  .left-arrow {
+    padding-right: 0.5rem;
+  }
+}
